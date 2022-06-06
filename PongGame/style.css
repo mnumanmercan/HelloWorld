@@ -1,0 +1,46 @@
+.container{
+    border: 5px solid black;
+    width: 45rem;
+    height: 25rem;
+    background-color: blanchedalmond;
+    
+    
+}
+
+.user{
+    height: 5rem;
+    width: 1rem;
+    display: flex;
+    border: 4px solid black;
+    background-color: black;
+    
+}
+
+.first{
+    position:absolute;
+    top: 10rem;
+    left: 3rem;
+    flex: 1;
+    
+    
+}
+
+.second{
+    position: absolute;
+    top: 10rem;
+    left: 42rem;
+    flex: 1;
+}
+
+.ball{
+    height: 0.6rem;
+    width: 0.6rem;
+    position: relative;
+    top: 12rem;
+    left: 22rem;
+    border: 5px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+

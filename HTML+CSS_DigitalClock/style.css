@@ -1,0 +1,69 @@
+html{
+    background-image:url("./img/time.jpg");
+    background-size: cover;
+    font-family: 'Prompt', sans-serif;
+}
+h1{
+    position: absolute;
+    top:2rem;
+    left: 23%;
+    text-align: center;
+    color: black;
+    
+}
+body{
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock{
+    width: 38rem;
+    height: 9rem;
+    border: 17px solid rgb(26, 40, 49);
+    margin: 50px auto;
+    position: absolute;
+    left: 34%;
+    
+    border-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 
+     0 0 0px 4px rgba(0, 0, 0, 0.1),
+     inset 0 0 0 3px #efefef,
+     inset 0 0 10px black,
+     0 0 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to left,rgba(194, 27, 27, 0.8),rgba(92, 24, 174, 0.8));
+    
+}
+
+.clock-face{
+    padding: -100%;
+    margin-left: 20px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.part{
+    font-size: 6rem;
+    font-weight:bold;
+    float: left;
+    
+    margin-left: 37px;
+    
+}
+
+.date-part{
+    font-size: 4rem;
+    font-weight:bold;
+    float:left;
+    position: relative;
+    padding-top: 20px;
+    margin-left: 12vh;
+    text-align: center;
+
+}

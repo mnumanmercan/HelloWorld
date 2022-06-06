@@ -1,0 +1,78 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background: linear-gradient(to right , rgba(39, 78, 98, 0.8),rgba(196, 134, 198, 0.8))
+}
+#container{
+    border: 2px solid;
+    border-color: burlywood;
+
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-width: 30px;
+    width: 700px;
+    height: 100px;
+    padding-top: 30px;
+    background: beige;
+    
+
+}
+#myH2{
+    float: left;
+    position: absolute;
+    top: -2.8vh;
+    left: 5vh;
+}
+
+#list{
+    color: black;
+    cursor: pointer;
+    border: 2px solid;
+    width: 660px;
+    border-radius: 10px;
+    background: lightgray;
+    font-size: 20px;
+    
+}
+
+input{
+    color: rgb(190, 187, 214);
+    width: 550px;
+    height: 40px;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 10px;
+    background: rgb(54, 61, 43);
+    font-size: 20px;
+    font-weight:400;
+}
+
+#ekleBtn,.btn{
+    color: white;
+    width: 70px;
+    height: 40px;
+    margin-top: 5px;
+    float: right;
+    border: 0px solid;
+    position: relative;
+    right: 63px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: rgb(54, 61, 43);
+    box-shadow: 2px 1px 8px 0.3px rgb(39, 39, 160) ;
+    cursor: pointer;
+}
+#ekleBtn:hover{
+    width: 75px;
+    height: 42px;
+    background-color: blue;
+    transition: 0.2s ease;
+}
+#silBtn:hover{
+    width: 75px;
+    height: 42px;
+    background-color: red;
+    transition: 0.2s ease;
+}

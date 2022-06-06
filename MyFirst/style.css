@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+#blackHole{
+    border: 2px solid #3d3e3a;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position:fixed;
+    top: 250px;
+    left: 650px;
+    
+    
+}
+#scoreBoard{
+    padding-left: 10px;
+    
+    margin-left: 20px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: rgb(221, 200, 40);
+}
+#myH4{
+    font-size: 15px;
+    position: relative;
+    color: Blue;
+    top: 80px;
+}
+
+.GameO{
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    font-size: 50px;
+    color: red;
+}

@@ -1,0 +1,57 @@
+*{
+    margin-left: 0;
+
+}
+
+.road{
+    width: 105%;
+    height: 200px;
+    background-color: #9b7653;
+    margin-left: 0;
+    margin-bottom: 2px;
+    transform: skewX(-15deg);
+}
+
+.arac{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 30%;
+    position: relative;
+    top: 35%;
+    transition: 0.4s ease;
+}
+#winner{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(to right,rgba(84, 118, 46, 0.7),rgba(78, 118, 38, 0.7));
+    position: absolute;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    z-index: 0;
+    top: 36vh;
+    left: 100vh;
+
+}
+#goBtn{
+    color: beige;
+    width: 200px;
+    height: 80px;
+    font-size: large;
+    background-color: rgb(5, 57, 5);
+    border:0px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px gray;
+    margin-top: 10px;
+    position:relative;
+    left: 44%;
+    cursor: pointer;
+    
+}
+#goBtn:active{
+    background-color: rgb(131, 140, 131);
+    box-shadow: 1px 1px 20px 10px rgb(148, 145, 145);
+    transition: 0.2s ease;
+}
